@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the manuscript below."
+title: "Carbon-Efficient Design Strategies for Mitigating Footfall Vibration in Steel Framed Floor Systems -- code, data and figures"
+type: software
+authors:
+  - family-names: Farrow
+    given-names: Skylar D.
+    affiliation: "Department of Architectural Engineering, The Pennsylvania State University"
+  - family-names: Brown
+    given-names: Nathan
+    affiliation: "Department of Architectural Engineering, The Pennsylvania State University"
+  - family-names: Solnosky
+    given-names: Ryan
+    affiliation: "Department of Architectural Engineering, The Pennsylvania State University"
+license: MIT
+date-released: "2026-09-13"
+preferred-citation:
+  type: article
+  title: "Carbon-Efficient Design Strategies for Mitigating Footfall Vibration in Steel Framed Floor Systems"
+  authors:
+    - family-names: Farrow
+      given-names: Skylar D.
+    - family-names: Brown
+      given-names: Nathan
+    - family-names: Solnosky
+      given-names: Ryan
+  journal: "Engineering Structures"
+  year: 2026
+  notes: "Manuscript under review; update the DOI, volume and pages on acceptance."
