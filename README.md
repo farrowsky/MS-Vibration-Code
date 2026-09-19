@@ -4,7 +4,7 @@ Code and data for *Carbon-Efficient Design Strategies for Mitigating Footfall Vi
 
 **AI Usage Disclosure:** All code for the composite and non-composite sizing engines was handwritten over the course of the thesis. Claude Opus 5 was used to help identify bugs, streamline plotting code, and run agents to assist with sampling. All AI-assisted outputs were rigorously validated against the original handwritten thesis results to confirm consistency.
 
-| File | | Purpose |
+| File | Purpose |
 |---|---|
 | `Composite MS Code.ipynb` | The composite floor engine: deck and slab sizer, composite steel sizer, AISC DG 11 vibration check, embodied carbon take-off, and the two mitigation paths (upsize steel / add concrete topping). |
 | `Non-Composite MS Code.ipynb` | Same for the non-composite system. |
