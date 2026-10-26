@@ -1,0 +1,91 @@
+System,Group,Symbol,Quantity,Value_imperial,Units_imperial,Value_SI,Units_SI,Hand_imperial,Hand_SI,Hand_sheet_units,Script_in_sheet_units,Hand_source,Agrees
+Non-composite,Design,,Deck selected,2VL22 GA w/ 2in LWC,,,,,,,,,
+Non-composite,Design,,Deck depth (in),2,,,,,,,,,
+Non-composite,Design,,Topping thickness (in),2,,,,,,,,,
+Non-composite,Design,,Total slab depth above deck (in),2,,,,,,,,,
+Non-composite,Design,,Total floor depth incl. deck (in),4,,,,,,,,,
+Non-composite,Design,,Infill size,W18X35,,,,,,,,,
+Non-composite,Design,,Girder size,W21X55,,,,,,,,,
+Non-composite,Design,,Interior infills in bay,2,,,,,,,,,
+Non-composite,Design,,Infill spacing (ft),10,,,,,,,,,
+Non-composite,Member count,,"Infill count, structural model",4,count,,,,,,,,
+Non-composite,Member count,,"Infill count, carbon take-off",3,count,,,,,,,,
+Non-composite,Member count,,"Girder count, structural model",2,count,,,,,,,,
+Non-composite,Member count,,"Girder count, carbon take-off",1,count,,,,,,,,
+Non-composite,Benchmark,w,Total load used in the vibration analysis,42.6,psf,2.039699029,kN/m2,42.6,2.039699029,426,426,"p161, w_i = 426 plf at 10 ft spacing",yes
+Non-composite,Benchmark,"I_tr,j","Transformed moment of inertia, infill",1552.033533,in4,646005130,mm4,1552,645991172.5,1552,1552.033533,"p161, I_i = 1.552e3 in4",yes
+Non-composite,Benchmark,"I_tr,g","Transformed moment of inertia, girder",3143.63421,in4,1308479349,mm4,3143.6,1308465110,3143.6,3143.63421,"p162, I_g",yes
+Non-composite,Benchmark,D_j,"Midspan deflection, infill",0.172495606,in,4.381388404,mm,0.172,4.3688,0.172,0.172495606,p161,yes
+Non-composite,Benchmark,D_g,"Midspan deflection, girder",0.266481879,in,6.768639731,mm,0.266,6.7564,0.266,0.266481879,p162,yes
+Non-composite,Benchmark,f_n,Fundamental frequency,5.337587827,Hz,5.337587827,Hz,5.338,5.338,5.338,5.337587827,p163,yes
+Non-composite,Benchmark,W,Effective panel weight,64916.00214,lb,288.7607642,kN,64916,288.7607547,64916,64916.00214,p163,yes
+Non-composite,Benchmark,a_p/g,Peak acceleration,0.773039821,%g,0.773039821,%g,0.77304,0.77304,0.77304,0.773039821,p163,yes
+Non-composite,Benchmark,EC,Scaled embodied carbon,18.66114447,lb CO2e/ft2,91.11179586,kg CO2e/m2,8.464487217,91.11098212,18.661,18.66116667,"p164, Scaled_EC in lb CO2e/ft2",yes
+Non-composite,Supporting,w_j,Line load on infill,426,plf,6.217000394,kN/m,,,,,,
+Non-composite,Supporting,w_g,Line load on girder,1333,plf,19.45366555,kN/m,,,,,,
+Non-composite,Supporting,B_j,"Effective panel width, infill",22.18352793,ft,6.761539314,m,,,,,,
+Non-composite,Supporting,B_g,"Effective panel width, girder",59.57188562,ft,18.15751074,m,,,,,,
+Non-composite,Supporting,W_j,"Panel weight, infill mode",42525.82305,lb,189.1642855,kN,,,,,,
+Non-composite,Supporting,W_g,"Panel weight, girder mode",79409.32354,lb,353.2302698,kN,,,,,,
+Non-composite,Supporting,EC_total,Unscaled embodied carbon for the bay,16795.03003,lb CO2e,7618.106534,kg CO2e,,,,,,
+Non-composite,Carbon component,EC_infill,"Carbon, infill beams",3842.99543,lb CO2e,1743.155478,kg CO2e,,,,,,
+Non-composite,Carbon component,EC_girder,"Carbon, girders",2012.997606,lb CO2e,913.0814408,kg CO2e,,,,,,
+Non-composite,Carbon component,EC_deck,"Carbon, steel deck",3340.796027,lb CO2e,1515.36139,kg CO2e,,,,,,
+Non-composite,Carbon component,EC_concrete,"Carbon, concrete",7598.240964,lb CO2e,3446.508225,kg CO2e,,,,,,
+Non-composite,Carbon component,EC_studs,"Carbon, shear studs",0,lb CO2e,0,kg CO2e,,,,,,
+Non-composite,Take-off mass,m_infill_full,"Infill mass, full member count",4200,lb,1905.087954,kg,,,,,,
+Non-composite,Take-off mass,m_infill_takeoff,"Infill mass, carbon take-off count",3150,lb,1428.815966,kg,,,,,,
+Non-composite,Take-off mass,m_girder_full,"Girder mass, full member count",3300,lb,1496.854821,kg,,,,,,
+Non-composite,Take-off mass,m_girder_takeoff,"Girder mass, carbon take-off count",1650,lb,748.4274105,kg,,,,,,
+Non-composite,Take-off mass,m_deck,Steel deck mass,1440,lb,653.1730128,kg,,,,,,
+Non-composite,Take-off mass,m_concrete,Concrete mass,24750,lb,11226.41116,kg,,,,,,
+Non-composite,Take-off mass,infill_sw,Infill self weight,35,plf,,,,,,,,
+Non-composite,Take-off mass,girder_sw,Girder self weight,55,plf,,,,,,,,
+Composite,Design,,Deck selected,2VL22 GA w/ 2in LWC,,,,,,,,,
+Composite,Design,,Deck depth (in),2,,,,,,,,,
+Composite,Design,,Topping thickness (in),2,,,,,,,,,
+Composite,Design,,Total slab depth above deck (in),2,,,,,,,,,
+Composite,Design,,Total floor depth incl. deck (in),4,,,,,,,,,
+Composite,Design,,Infill size,W12X19,,,,,,,,,
+Composite,Design,,Infill studs,17,,,,,,,,,
+Composite,Design,,Infill camber (in),1.25,,,,,,,,,
+Composite,Design,,Girder size,W18X40,,,,,,,,,
+Composite,Design,,Girder studs,41,,,,,,,,,
+Composite,Design,,Girder camber (in),0.75,,,,,,,,,
+Composite,Design,,Interior infills in bay,2,,,,,,,,,
+Composite,Design,,Infill spacing (ft),10,,,,,,,,,
+Composite,Member count,,"Infill count, structural model",4,count,,,,,,,,
+Composite,Member count,,"Infill count, carbon take-off",3,count,,,,,,,,
+Composite,Member count,,"Girder count, structural model",2,count,,,,,,,,
+Composite,Member count,,"Girder count, carbon take-off",1,count,,,,,,,,
+Composite,Benchmark,w,Total load used in the vibration analysis,41,psf,1.963090615,kN/m2,41,1.963090615,410,410,"p179, w_i = 410 plf at 10 ft spacing",yes
+Composite,Benchmark,"I_tr,j","Transformed moment of inertia, infill",517.8908215,in4,215562434.9,mm4,517.891,215562509.2,517.891,517.8908215,p179,yes
+Composite,Benchmark,"I_tr,g","Transformed moment of inertia, girder",1866.435745,in4,776869210.9,mm4,1866.4,776854332.7,1866.4,1866.435745,p180,yes
+Composite,Benchmark,D_j,"Midspan deflection, infill",0.497525313,in,12.63714295,mm,0.498,12.6492,0.498,0.497525313,p179,yes
+Composite,Benchmark,D_g,"Midspan deflection, girder",0.427622174,in,10.86160321,mm,0.428,10.8712,0.428,0.427622174,p180,yes
+Composite,Benchmark,f_n,Fundamental frequency,3.676720959,Hz,3.676720959,Hz,3.677,3.677,3.677,3.676720959,p181,yes
+Composite,Benchmark,W,Effective panel weight,59238.31897,lb,263.5051712,kN,59238.3,263.5050868,59238.3,59238.31897,p181,yes
+Composite,Benchmark,a_p/g,Peak acceleration,1.514983025,%g,1.514983025,%g,1.51498,1.51498,1.51498,1.514983025,p181,yes
+Composite,Benchmark,EC,Scaled embodied carbon,16.15587976,lb CO2e/ft2,78.88000766,kg CO2e/m2,7.32823833,78.88050089,16.156,16.15589898,"p182, Scaled_EC in lb CO2e/ft2",yes
+Composite,Supporting,w_j,Line load on infill,410,plf,5.983498031,kN/m,,,,,,
+Composite,Supporting,w_g,Line load on girder,1270,plf,18.53425,kN/m,,,,,,
+Composite,Supporting,B_j,"Effective panel width, infill",29.18746226,ft,8.896338498,m,,,,,,
+Composite,Supporting,B_g,"Effective panel width, girder",51.57988461,ft,15.72154883,m,,,,,,
+Composite,Supporting,W_j,"Panel weight, infill mode",53850.86787,lb,239.5405947,kN,,,,,,
+Composite,Supporting,W_g,"Panel weight, girder mode",65506.45345,lb,291.3872225,kN,,,,,,
+Composite,Supporting,EC_total,Unscaled embodied carbon for the bay,14540.29179,lb CO2e,6595.373256,kg CO2e,,,,,,
+Composite,Carbon component,EC_infill,"Carbon, infill beams",2086.197519,lb CO2e,946.2844023,kg CO2e,,,,,,
+Composite,Carbon component,EC_girder,"Carbon, girders",1463.998259,lb CO2e,664.0592297,kg CO2e,,,,,,
+Composite,Carbon component,EC_deck,"Carbon, steel deck",3340.796027,lb CO2e,1515.36139,kg CO2e,,,,,,
+Composite,Carbon component,EC_concrete,"Carbon, concrete",7598.240964,lb CO2e,3446.508225,kg CO2e,,,,,,
+Composite,Carbon component,EC_studs,"Carbon, shear studs",51.05901928,lb CO2e,23.16000911,kg CO2e,,,,,,
+Composite,Take-off mass,m_infill_full,"Infill mass, full member count",2280,lb,1034.190604,kg,,,,,,
+Composite,Take-off mass,m_infill_takeoff,"Infill mass, carbon take-off count",1710,lb,775.6429527,kg,,,,,,
+Composite,Take-off mass,m_girder_full,"Girder mass, full member count",2400,lb,1088.621688,kg,,,,,,
+Composite,Take-off mass,m_girder_takeoff,"Girder mass, carbon take-off count",1200,lb,544.310844,kg,,,,,,
+Composite,Take-off mass,m_studs_full,"Stud mass, full member count",65.55,lb,29.73297985,kg,,,,,,
+Composite,Take-off mass,m_studs_takeoff,"Stud mass, carbon take-off count",40.204,lb,18.23622764,kg,,,,,,
+Composite,Take-off mass,m_deck,Steel deck mass,1440,lb,653.1730128,kg,,,,,,
+Composite,Take-off mass,m_concrete,Concrete mass,24750,lb,11226.41116,kg,,,,,,
+Composite,Take-off mass,infill_sw,Infill self weight,19,plf,,,,,,,,
+Composite,Take-off mass,girder_sw,Girder self weight,40,plf,,,,,,,,
